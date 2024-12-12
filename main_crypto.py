@@ -8,7 +8,7 @@ import requests
 from textblob import TextBlob
 
 # OpenAI API Key
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 # Function to fetch coin data from CoinGecko API
 def fetch_coin_data(coin_id, start_date="2024-01-01", end_date="2024-12-01"):
